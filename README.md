@@ -81,6 +81,13 @@ then I should clone the project from origin into master by:
 git clone  <remote repository address>
 
 (if you clone from a private repository make sure you set your ssh key config at remote repository or every other configs that you may need to do before cloning the code.)
+whenever you want to commit anything, you should first add the corresponding files to your stage by:
+ git add 
+and for committing them: 
+git commit
+ as your code is ready to push on origin use:
+git push
+
 
 
 Q12: why do you use branches? and how can you merge them?
